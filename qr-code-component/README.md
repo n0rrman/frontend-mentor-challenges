@@ -10,7 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/n0rrman/frontend-mentor-challenges/tree/main/qr-code-component)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-tailwind-and-nextjs-wccBAtTkIf)
 - Live Site URL: [Live version on Vercel](https://qr-code-component-chi-five.vercel.app)
 
 
