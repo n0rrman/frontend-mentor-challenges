@@ -10,7 +10,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-tailwind-and-nextjs-tvwoiGreHb)
 - Live Site URL: [Live version on Vercel](https://product-preview-card-component-seven-sand.vercel.app)
 
 

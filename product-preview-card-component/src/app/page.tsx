@@ -10,27 +10,27 @@ import cartIcon from 'public/icon-cart.svg';
 export default function Home() {
   return (
     <div className="bg-cream flex justify-center items-center min-h-screen">
-      <main className="flex flex-col bg-white w-[21.25rem] rounded-lg overflow-hidden m-6 shadow-sm sm:w-[35rem] sm:flex-row">
-        <picture className="sm:w-1/2">
+      <main className="flex flex-col bg-white w-[21.25rem] rounded-lg overflow-hidden m-6 shadow-sm sm:w-[37.5rem] sm:flex-row">
+        <picture className="sm:w-1/2 brightness-90 contrast-125">
           <source media="(min-width: 640px)" srcSet={productDesktopImg.src}/>
           <img src={productMobileImg.src} alt="perfume bottle"/>
         </picture>
-        <div className={`${montserrat.className} flex flex-col p-[1.75rem] justify-between space-y-4 sm:w-1/2`}>
-          <h3 className="uppercase text-[0.75rem] tracking-[0.3rem] text-grayishBlue">
+        <div className={`${montserrat.className} flex flex-col p-8 justify-between space-y-4 sm:w-1/2`}>
+          <h3 className="uppercase text-[0.75rem] opacity-90 tracking-[0.3rem] text-grayishBlue">
             Perfume
           </h3>
-          <h1 className={`${fraunces.className} text-[1.8rem] leading-[2rem] text-darkBlue`}>
+          <h1 className={`${fraunces.className} text-[2rem] leading-[2rem] text-darkBlue`}>
             Gabrielle Essence Eau De Parfum
           </h1>
-          <p className="text-sm text-grayishBlue">
+          <p className="text-sm opacity-90 leading-[1.45rem] text-grayishBlue">
           A floral, solar and voluptuous interpretation composed by Olivier Polge, 
           Perfumer-Creator for the House of CHANEL.
           </p>
-          <div className="flex flex-row items-center justify-start">
-            <div className={`${fraunces.className} text-darkCyan text-[1.8rem]`}>
+          <div className="flex flex-row items-center justify-start py-1">
+            <div className={`${fraunces.className} text-darkCyan text-[2rem]`}>
             $149.99
             </div>
-            <div className="px-4 line-through text-grayishBlue text-xs">
+            <div className="px-5 line-through text-grayishBlue text-xs">
             $169.99
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
               src={cartIcon}
               alt="shopping cart icon"
             />
-            <div className="p-3">
+            <div className="py-[0.9rem] px-3 -mr-3">
               Add to Cart
             </div>
           </div>
