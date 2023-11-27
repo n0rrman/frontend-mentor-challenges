@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-darkCyan: 158deg 36% 37%;
+    --color-darkerCyan: 143 32% 26%;
+
+    --color-cream: 30deg 38% 92%;
+    --color-darkBlue: 212deg 21% 14%;
+    --color-grayishBlue: 228deg 12% 48%;
+    --color-white: 0deg 0% 100%;
+  }
+}
