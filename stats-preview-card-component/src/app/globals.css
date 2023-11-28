@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bgColor: 233deg 47% 7%;
+    --color-cardColor: 244deg 38% 16%;
+    --color-accentColor: 277deg 64% 61%;
+
+    --color-white: 0deg 0% 100%;
+  }
+}
