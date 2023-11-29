@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --color-softBlue: 215deg 51% 70%;
+    --color-cyan: 178deg 100% 50%;
+
+    --color-mainBlue: 217deg 54% 11%;
+    --color-cardBlue: 216deg 50% 16%;
+    --color-lineBlue: 215deg 32% 27%;
+    --color-white: 0deg 0% 100%;
+  }
+}

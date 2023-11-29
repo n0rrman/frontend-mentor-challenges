@@ -10,8 +10,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor]()
-- Live Site URL: [Live version on Vercel]()
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-component-tailwind-and-nextjs--cQVwO_tGa)
+- Live Site URL: [Live version on Vercel](https://nft-preview-card-component-kappa-navy.vercel.app)
 
 
 ### Built with
