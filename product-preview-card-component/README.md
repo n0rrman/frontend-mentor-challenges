@@ -5,7 +5,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![Screenshot of the solved QR code component challeng](./design/screenshot.png)
+![Screenshot of the solved product preview code component challenge](./design/screenshot.png)
 
 
 ### Links

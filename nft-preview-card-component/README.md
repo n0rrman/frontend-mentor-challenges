@@ -5,7 +5,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![Screenshot of the solved QR code component challeng](./design/screenshot.png)
+![Screenshot of the solved NFT preview card component challenge](./design/screenshot.png)
 
 
 ### Links
