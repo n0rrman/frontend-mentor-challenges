@@ -10,8 +10,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor](...)
-- Live Site URL: [Live version on Vercel](...)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-card-tailwind-and-nextjs-xzpWPj9yhl)
+- Live Site URL: [Live version on Vercel](https://order-summary-component-ivory.vercel.app)
 
 
 ### Built with
