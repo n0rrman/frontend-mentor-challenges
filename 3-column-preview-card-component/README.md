@@ -10,8 +10,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor](...)
-- Live Site URL: [Live version on Vercel](...)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/3column-preview-card-component-tailwind-and-nextjs-Dvzw-nUeth)
+- Live Site URL: [Live version on Vercel](https://3-column-preview-card-component-ochre.vercel.app)
 
 
 ### Built with

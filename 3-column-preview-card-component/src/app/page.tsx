@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import sedansIcon from '/public/icon-sedans.svg';
 import suvsIcon from '/public/icon-suvs.svg';
 import luxuryIcon from '/public/icon-luxury.svg';
@@ -7,8 +5,8 @@ import CardSection from '@/components/cardSection';
 
 export default function Home() {
     return (
-      <div className="flex justify-center items-center min-h-screen bg-veryLightGray text-veryLightGray">
-        <main className="flex flex-col lg:flex-row justify-center rounded-lg overflow-hidden items-center h-auto lg:h-[31.25rem] my-12">
+      <div className="flex justify-center items-center min-h-screen bg-veryLightGray/95 text-veryLightGray/95">
+        <main className="flex flex-col lg:flex-row justify-center rounded-lg overflow-hidden items-center h-auto lg:w-[57.5rem] max-w-[30rem] mx-3 sm:mx-8 lg:max-w-full lg:h-[31.25rem] my-12 lg:mt-[5.56rem]">
 
           <CardSection
             title="Sedans"

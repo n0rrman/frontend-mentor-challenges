@@ -13,8 +13,8 @@ const config: Config = {
         darkCyan: 'hsl(var(--color-darkCyan) / <alpha-value>)',
         veryDarkCyan: 'hsl(var(--color-veryDarkCyan) / <alpha-value>)',
         
-        transparentWhite: 'hsl(var(--color-transparentWhite) / 75)',
-        veryLightGray: 'hsl(var(--color-veryLightGray) / 95)',
+        transparentWhite: 'hsl(var(--color-transparentWhite) / <alpha-value>)',
+        veryLightGray: 'hsl(var(--color-veryLightGray) / <alpha-value>)',
       }
     }
   },
