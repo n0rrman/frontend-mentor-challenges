@@ -27,7 +27,7 @@ export default function Home() {
                 Monthly Subscription
               </h2>
 
-              <div className="flex flex-row items-center justify-start pt-3 sm:pt-[0.585rem]">
+              <div className="flex flex-row items-center justify-start pt-3 sm:pt-4">
                 <div className="font-bold text-3xl sm:text-[1.95rem]">
                   $29
                 </div>
@@ -35,7 +35,7 @@ export default function Home() {
                   per month
                 </div>
               </div>
-              <p className="pt-1 sm:pt-0 pb-7 text-sm sm:text-[0.975rem] text-lightGray/80">
+              <p className="pb-0 pt-0 sm:pt-2 sm:pb-7 text-sm sm:text-[0.975rem] text-lightGray/80">
                 Full access for less than §1 a day
               </p>
 
