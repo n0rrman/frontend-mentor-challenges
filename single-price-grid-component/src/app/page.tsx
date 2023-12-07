@@ -9,9 +9,9 @@ export default function Home() {
             </h1>
 
             <div>
-              <h3 className="text-brightYellow font-bold text-sm sm:text-lg pb-2">
+              <h2 className="text-brightYellow font-bold text-sm sm:text-lg pb-2">
                 30-day, hassle-free money back guarantee
-              </h3>
+              </h2>
 
               <p className="text-grayish leading-[1.5rem] py-[0.4rem] sm:py-0 text-xs tracking-[0.009rem] sm:leading-[1.6rem] sm:text-[0.95rem]">
                 Gain access to our full library of tutorials along with expert code reviews. 
