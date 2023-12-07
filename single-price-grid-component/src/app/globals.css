@@ -5,6 +5,7 @@
 @layer base {
   :root {
     --color-cyan: 179deg 62% 43%;
+    --color-lightCyan: 179deg 47% 52%;
     --color-brightYellow: 71deg 73% 54%;
     --color-lightGray: 204deg 43% 93%;
     --color-grayish: 218deg 22% 67%;

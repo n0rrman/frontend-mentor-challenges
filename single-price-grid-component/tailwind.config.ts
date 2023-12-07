@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         cyan: 'hsl(var(--color-cyan) / <alpha-value>)',
+        lightCyan: 'hsl(var(--color-lightCyan) / <alpha-value>)',
         brightYellow: 'hsl(var(--color-brightYellow) / <alpha-value>)',
         lightGray: 'hsl(var(--color-lightGray) / <alpha-value>)',
         grayish: 'hsl(var(--color-grayish) / <alpha-value>)',
