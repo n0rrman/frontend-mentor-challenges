@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-darkMagenta: 300deg 43% 22%;
+    --color-softPink: 333deg 80% 67%;
+
+    --color-grayishMagenta: 303deg 10% 53%;
+    --color-lightMagenta: 300deg 24% 96%;
+    --color-white: 0deg 0% 100%;
+  }
+}
