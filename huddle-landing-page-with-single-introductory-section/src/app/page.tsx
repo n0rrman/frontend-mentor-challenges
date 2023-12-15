@@ -19,7 +19,6 @@ export default function Home() {
         />
         <img
           className="h-auto md:h-full w-full md:w-auto object-contain md:object-cover md:object-left"
-          // className="h-auto w-full md:w-auto md:h-full"
           src={mobileBg.src}
           alt=""
         />
