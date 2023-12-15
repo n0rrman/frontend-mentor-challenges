@@ -6,7 +6,14 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        violet: 'hsl(var(--color-violet) / <alpha-value>)',
+        magenta: 'hsl(var(--color-magenta) / <alpha-value>)',
+      },
+    },
+  },
   plugins: [],
 }
 export default config

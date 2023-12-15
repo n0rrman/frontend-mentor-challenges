@@ -10,8 +10,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor](...)
-- Live Site URL: [Live version on Vercel](...)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-tailwind-nfp7c9rUkW)
+- Live Site URL: [Live version on Vercel](https://huddle-landing-page-with-single-introductory-section-liart.vercel.app)
 
 
 ### Built with
