@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primaryBlue: 223deg 87% 63%;
+
+    --color-secondaryBlue: 223deg 100% 88%;
+    --color-secondaryRed: 354deg 100% 66%;
+
+    --color-gray: 0deg 0% 59%;
+    --color-veryDarkBlue: 209deg 33% 12%;
+  }
+}
