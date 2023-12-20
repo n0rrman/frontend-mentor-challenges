@@ -11,6 +11,7 @@ export default function ReviewModal(props: ReviewModalProps) {
   const [score, setScore] = useState(0);
 
   const handleClick = (e: any) => {
+    console.log(e.target.id);
     setScore(e.target.id);
   };
 
@@ -19,12 +20,14 @@ export default function ReviewModal(props: ReviewModalProps) {
       <div
         onClick={handleClick}
         className={`${
-          val == score ? "bg-white" : "bg-darkBlue"
-        } flex justify-center text-[0.95rem] items-center active:scale-95 select-none rounded-full text-lightGray overflow-hidden w-2 h-2 p-[1.6rem] hover:cursor-pointer hover:bg-primaryOrange hover:text-white active:brightness-75 active-shadow-xl transition-all duration-200 ease-out`}
+          val == score
+            ? "bg-white"
+            : "bg-darkBlue hover:cursor-pointer hover:bg-primaryOrange hover:text-white active:brightness-75"
+        } flex justify-center text-[0.95rem] items-center active:scale-95 select-none rounded-full text-lightGray overflow-hidden w-2 h-2 p-[1.6rem] transition-all duration-200 ease-out`}
         key={val}
         id={`${val}`}
       >
-        <div>{val}</div>
+        {val}
       </div>
     );
   });
