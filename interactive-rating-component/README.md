@@ -10,8 +10,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor](...)
-- Live Site URL: [Live version on Vercel](...)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-tailwind-and-nextjs-sH2V9JEZwr)
+- Live Site URL: [Live version on Vercel](https://interactive-rating-component-eta-silk.vercel.app)
 
 
 ### Built with

@@ -1,31 +1,30 @@
+"use client";
+
+import { useState } from "react";
+
+import ReviewModal from "@/components/reviewModal";
+import ThanksModal from "@/components/thanksModal";
+
 export default function Home() {
+  const [reviewScored, setReviewScore] = useState(0);
+
+  const handleSubmitReview = (score: number) => {
+    setReviewScore(score);
+  };
+
+  const renderModal = () => {
+    if (reviewScored <= 0) {
+      return <ReviewModal onSubmit={handleSubmitReview} />;
+    } else {
+      return <ThanksModal score={reviewScored} />;
+    }
+  };
+
   return (
-    <div>
-      {/* <!-- Rating state start --> */}
-      <div>How did we do?</div>
-
-      <div>
-        Please let us know how we did with your support request. All feedback is
-        appreciated to help us improve our offering!
-      </div>
-
-      <div>1 2 3 4 5</div>
-
-      <div>Submit</div>
-
-      {/* <!-- Rating state end --> */}
-      {/* <!-- Thank you state start --> */}
-
-      <div>You selected {/*<!-- Add rating here -->*/} out of 5</div>
-
-      <div>Thank you!</div>
-
-      <div>
-        We appreciate you taking the time to give a rating. If you ever need
-        more support, don't hesitate to get in touch!
-      </div>
-
-      {/* <!-- Thank you state end --> */}
+    <div className="flex justify-center items-center bg-veryDarkBlue min-h-screen">
+      <main className="max-w-[25.75rem] h-[26rem] mt-1 rounded-[2rem] mx-5 p-8 pr-10 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-darkBlue to-darkerBlue">
+        {renderModal()}
+      </main>
     </div>
   );
 }
