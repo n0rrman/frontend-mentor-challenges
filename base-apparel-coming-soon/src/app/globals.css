@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-desaturatedRed: 0deg 36% 70%;
+    --color-softRed: 0deg 93% 68%;
+    --color-darkishRed: 0deg 6% 24%;
+
+    --color-gradOneStart: 0deg 0% 100%;
+    --color-gradOneEnd: 0deg 100% 98%;
+
+    --color-gradTwoStart: 0deg 80% 86%;
+    --color-gradTwoEnd: 0deg 74% 75%;
+  }
+}
