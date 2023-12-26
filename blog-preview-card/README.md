@@ -10,8 +10,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor](...)
-- Live Site URL: [Live version on Vercel](...)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-tailwind-and-nextjs-J3e_er_XDl)
+- Live Site URL: [Live version on Vercel](https://blog-preview-card-swart.vercel.app)
 
 
 ### Built with
