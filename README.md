@@ -1,4 +1,4 @@
-# Frontend Mentor Challenges
+# Frontend Mentor Challenges - Blue
 
 A mono repository for my solutions to the 🔵Newbie [Frontend Mentor](https://www.frontendmentor.io/challenges) challenges. All submitted solutions are also available [here](https://www.frontendmentor.io/profile/n0rrman/solutions), on my Frontend Mentor profile.
 
@@ -25,7 +25,7 @@ The challenges are solved using [Next.js](https://nextjs.org/), [Tailwind CSS](h
 | [Huddle landing page with a single introductory section](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-tailwind-nfp7c9rUkW)  | 🔵Newbie | [huddle-landing-page-with-single-introductory-section](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/huddle-landing-page-with-single-introductory-section) | [Vercel](https://huddle-landing-page-with-single-introductory-section-liart.vercel.app) | ![Screenshot of the solved challenge](huddle-landing-page-with-single-introductory-section/design/screenshot.png) |
 | [Social proof section](https://www.frontendmentor.io/solutions/social-proof-section-tailwind-and-nextjs-WKoXN0pcYG)  | 🔵Newbie | [social-proof-section](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/social-proof-section) | [Vercel](https://social-proof-section-livid-five.vercel.app/) | ![Screenshot of the solved challenge](social-proof-section/design/screenshot.png) |
 | [Interactive rating component](https://www.frontendmentor.io/solutions/interactive-rating-component-tailwind-and-nextjs-sH2V9JEZwr)  | 🔵Newbie | [interactive-rating-component](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/interactive-rating-component) | [Vercel](https://interactive-rating-component-eta-silk.vercel.app) | ![Screenshot of the solved challenge](interactive-rating-component/design/screenshot.png) |
-| [-](...)  | 🔵Newbie | [...](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/...) | [Vercel](https://....vercel.app) | ![Screenshot of the solved challenge](.../design/screenshot.png) |
+| [Blog preview card](https://www.frontendmentor.io/solutions/blog-preview-card-tailwind-and-nextjs-J3e_er_XDl)  | 🔵Newbie | [blog-preview-card](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/blog-preview-card) | [Vercel](https://blog-preview-card-swart.vercel.app/) | ![Screenshot of the solved challenge](/design/screenshot.png) |
 
 
 <!--
