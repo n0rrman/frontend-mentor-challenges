@@ -3,6 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 import dashboardImg from "/public/illustration-dashboard.png";
 import logo from "/public/logo.svg";
+import EmailForm from "@/components/emailForm";
 
 export default function Home() {
   return (
@@ -17,19 +18,23 @@ export default function Home() {
           <h1 className="text-5xl">We are launching soon!</h1>
           <p className="text-2xl">Subscribe and get notified</p>
         </div>
-        <div>Notify Me</div>
+        <div>
+          <EmailForm />
+        </div>
 
         <div className="relative w-full aspect-video">
           <Image alt="" src={dashboardImg.src} fill />
         </div>
       </main>
       <footer>
-        <div className="flex flex-row justify-center items-center">
-          <FaFacebookF />
-          <FaTwitter />
-          <FaInstagram />
+        <div className="flex flex-row gap-2 justify-center items-center text-primaryBlue">
+          <FaFacebookF className="box-content hover:text-white hover:bg-primaryBlue hover:border-primaryBlue rounded-full p-1 border border-secondaryBlue transition-all duration-200 ease-out" />
+          <FaTwitter className="box-content hover:text-white hover:bg-primaryBlue hover:border-primaryBlue rounded-full p-1 border border-secondaryBlue transition-all duration-200 ease-out" />
+          <FaInstagram className="box-content hover:text-white hover:bg-primaryBlue hover:border-primaryBlue rounded-full p-1 border border-secondaryBlue transition-all duration-200 ease-out" />
         </div>
-        <div>&copy; Copyright Ping. All rights reserved.</div>
+        <div className="text-gray">
+          &copy; Copyright Ping. All rights reserved.
+        </div>
       </footer>
     </div>
   );
