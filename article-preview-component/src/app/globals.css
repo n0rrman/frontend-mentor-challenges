@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-veryDarkBlue: 217deg 19% 35%;
+    --color-desaturatedBlue: 214deg 17% 51%;
+    --color-grayishBlue: 212deg 23% 69%;
+    --color-lightGrayishBlue: 210deg 46% 95%;
+  }
+}
