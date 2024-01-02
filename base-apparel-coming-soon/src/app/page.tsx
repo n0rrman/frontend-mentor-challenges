@@ -9,7 +9,7 @@ import EmailForm from "@/components/emailForm";
 
 export default function Home() {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-col-reverse sm:flex-row text-center sm:text-left">
       <div className="absolute top-0 z-10 px-[10.3rem] py-[4.1rem]">
         <div className="relative z-10 w-[9.875rem] h-[2.0625rem]">
           <Image alt="" src={logo.src} fill />
@@ -20,13 +20,13 @@ export default function Home() {
           <Image className="z-0" fill alt="" src={bgImg.src} />
         </div>
         <div className="z-10 pr-14">
-          <h1 className="mt-[14.7rem] uppercase text-[4rem] leading-[4.375rem] tracking-[1.1rem] text-darkishRed">
-            <div className="text-desaturatedRed font-light leading-[4rem]">
+          <h1 className="mt-[14.7rem] uppercase text-8xl sm:text-[4rem] leading-16 sm:leading-[4.375rem] tracking-[1.1rem] text-darkishRed">
+            <div className="text-desaturatedRed font-light leading-16 sm:leading-[4rem]">
               We're
             </div>
             coming soon
           </h1>
-          <p className="text-desaturatedRed py-5 leading-7">
+          <p className="text-desaturatedRed py-5 leading-7 text-3xl sm:text-base">
             Hello fellow shoppers! We're currently building our new fashion
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <picture className="h-auto w-auto object-fill">
+      <picture className="mt-36 sm:mt-0 h-auto w-auto object-fill">
         <source
           className="w-auto h-auto object-fill"
           media="(min-width: 640px)"

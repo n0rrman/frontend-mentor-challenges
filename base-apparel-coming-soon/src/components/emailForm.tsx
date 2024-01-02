@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import { useState, FormEvent } from "react";
+import { useState, FormEventHandler, FormEvent } from "react";
 
 import arrowIcon from "/public/icon-arrow.svg";
 import errIcon from "/public/icon-error.svg";
@@ -11,15 +11,31 @@ export default function EmailForm() {
   const [input, setInput] = useState("");
   const [error, setError] = useState(false);
 
-  const handleSubmit = (event: FormEvent<HTMLInputElement>): any => {
-    setError(!error);
+  const validateEmail = (email: string): boolean => {
+    if (email.length <= 0) return false;
+    if (email.indexOf("@") < 0) return false;
+    if (email.indexOf(".") < 0) return false;
+    if (email.lastIndexOf(".") == email.length - 1) return false;
+    if (email.indexOf("@") > email.lastIndexOf(".")) return false;
+
+    return true;
+  };
+
+  const handleSubmit: FormEventHandler<HTMLFormElement> = (
+    event: FormEvent<HTMLFormElement>
+  ) => {
     event.preventDefault();
-    console.log("submitted!");
+
+    const validEmail = validateEmail(input);
+    if (validEmail) {
+      setInput("");
+    }
+
+    setError(!validEmail);
   };
 
   const handleChange = (value: string) => {
     setInput(value);
-    console.log(value);
   };
 
   return (
