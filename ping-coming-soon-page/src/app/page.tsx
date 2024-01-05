@@ -31,7 +31,7 @@ export default function Home() {
           <Image className="" alt="" src={dashboardImg.src} fill priority />
         </div>
       </main>
-      <footer className="">
+      <footer className="pt-[2.8rem]">
         <div className="flex flex-row gap-3  p-6 justify-center items-center text-primaryBlue text-[0.9rem] sm:text-sm">
           <FaFacebookF className="box-content hover:text-white hover:bg-primaryBlue hover:border-primaryBlue rounded-full p-2 border border-secondaryBlue transition-all duration-200 ease-out" />
           <FaTwitter className="box-content hover:text-white hover:bg-primaryBlue hover:border-primaryBlue rounded-full p-2 border border-secondaryBlue transition-all duration-200 ease-out" />
