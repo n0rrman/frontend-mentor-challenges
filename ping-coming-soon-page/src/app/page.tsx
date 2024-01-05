@@ -13,9 +13,9 @@ export default function Home() {
           <Image alt="" src={logo.src} fill />
         </div>
       </header>
-      <main className="flex flex-col justify-start sm:justify-center flex-1 items-center w-full sm:w-[40rem] px-7 sm:px-0">
+      <main className="flex flex-col justify-start sm:justify-center items-center w-full sm:w-[40rem] px-7 sm:px-0">
         <div className="text-center">
-          <h1 className="text-[1.35rem] sm:text-5xl text-gray font-light pb-3.5 sm:pb-5">
+          <h1 className="text-[1.35rem] sm:text-5xl text-gray font-light pt-[2.8rem] pb-3.5 sm:pb-5">
             We are launching{" "}
             <span className="text-veryDarkBlue font-bold ">soon!</span>
           </h1>
