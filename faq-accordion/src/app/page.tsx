@@ -5,8 +5,6 @@ import Accordian from "@/components/accordian";
 import bgMobile from "/public/background-pattern-mobile.svg";
 import bgDesktop from "/public/background-pattern-desktop.svg";
 
-import minusIcon from "/public/icon-minus.svg";
-import plusIcon from "/public/icon-plus.svg";
 import starIcon from "/public/icon-star.svg";
 
 export default function Home() {
@@ -40,13 +38,18 @@ export default function Home() {
 
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-lightPink">
-      <div className="absolute top-0 w-full h-[270px]">
+      <div className="absolute top-0 w-full h-[270px] ">
         <div className="relative w-screen h-full object-cover">
           {/* <Image className="object-cover" src={bgDesktop.src} alt="" fill /> */}
         </div>
       </div>
-      <main className="bg-white max-w-[37.5rem]">
-        <h1 className="text-darkPurple text-3xl font-bold">FAQs</h1>
+      <main className="bg-white w-[37.5rem]">
+        <div className="flex flex-row justify-start items-center p-6">
+          <div className="relative w-10 h-10 mr-4">
+            <Image src={starIcon.src} fill alt="" />
+          </div>
+          <h1 className="text-darkPurple text-3xl font-bold">FAQs</h1>
+        </div>
         <Accordian data={data} />
       </main>
     </div>

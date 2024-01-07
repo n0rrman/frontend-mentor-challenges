@@ -2,6 +2,9 @@
 
 import { useState } from "react";
 
+import minusIcon from "/public/icon-minus.svg";
+import plusIcon from "/public/icon-plus.svg";
+
 interface AccordianProps {
   data: {
     id: number;
@@ -28,5 +31,9 @@ export default function Accordian(props: AccordianProps) {
     );
   });
 
-  return <div>{renderedData}</div>;
+  return (
+    <div className="transition-all duration-200 ease-in-out">
+      {renderedData}
+    </div>
+  );
 }
