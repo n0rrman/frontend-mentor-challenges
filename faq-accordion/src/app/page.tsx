@@ -29,8 +29,7 @@ export default function Home() {
     },
     {
       id: 3,
-      heading:
-        "How can I get help if I'm stuck on a Frontend Mentor challenge?",
+      heading: "How can I get help if I'm stuck on a challenge?",
       content:
         "The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.",
     },
@@ -43,12 +42,12 @@ export default function Home() {
           {/* <Image className="object-cover" src={bgDesktop.src} alt="" fill /> */}
         </div>
       </div>
-      <main className="bg-white w-[37.5rem]">
-        <div className="flex flex-row justify-start items-center p-6">
-          <div className="relative w-10 h-10 mr-4">
+      <main className="bg-white w-[37.5rem] rounded-2xl px-10 py-3 shadow-2xl shadow-grayishPurple/25">
+        <div className="flex flex-row justify-start items-center pt-3">
+          <div className="relative w-10 h-10 mr-6">
             <Image src={starIcon.src} fill alt="" />
           </div>
-          <h1 className="text-darkPurple text-3xl font-bold">FAQs</h1>
+          <h1 className="text-darkPurple text-[3.5rem] font-bold">FAQs</h1>
         </div>
         <Accordian data={data} />
       </main>
