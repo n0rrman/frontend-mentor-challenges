@@ -24,19 +24,14 @@ export default function Accordian(props: AccordianProps) {
   const renderedData = props.data.map((section) => {
     const expanded = section.id === expandedId;
 
-    const expandedSection = (
-      <div className="text-grayishPurple pb-6">{section.content}</div>
-    );
-    const colapsedSection = <></>;
-
     return (
       <div
         className="border-b border-l-grayishPurple last:border-b-0 group"
         onClick={(e) => handleClick(section.id)}
         key={section.id}
       >
-        <div className="flex flex-row justify-between items-center py-6 font-bold text-lg text-darkPuple group-hover:cursor-pointer group-hover:text-[#AD28EB]">
-          <h2>{section.heading}</h2>
+        <div className="flex flex-row justify-between items-center py-[1.3rem] sm:py-[1.45rem] leading-5 sm:leading-auto font-bold text-base sm:text-lg text-darkPuple group-hover:cursor-pointer group-hover:text-[#AD28EB]">
+          <h2 className="w-10/12 sm:w-full">{section.heading}</h2>
           <div className="relative w-8 h-8">
             <Image
               src={`${expanded ? minusIcon.src : plusIcon.src}`}
@@ -48,20 +43,15 @@ export default function Accordian(props: AccordianProps) {
         <div
           className={`${
             expanded
-              ? "text-base text-grayishPurple h-[7.5rem]"
+              ? "text-sm sm:text-base text-grayishPurple h-[8.7rem] md:h-[7.5rem]"
               : "text-[0rem] text-white h-0 "
           } transition-all duration-200 ease-in-out`}
         >
           {section.content}
         </div>
-        {/* {expanded ? expandedSection : colapsedSection} */}
       </div>
     );
   });
 
-  return (
-    <div className="transition-all duration-200 ease-in-out">
-      {renderedData}
-    </div>
-  );
+  return <div className="pt-2 sm:pt-0">{renderedData}</div>;
 }

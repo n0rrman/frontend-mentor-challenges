@@ -38,16 +38,23 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-lightPink">
       <div className="absolute top-0 w-full h-[270px] ">
-        <div className="relative w-screen h-full object-cover">
-          {/* <Image className="object-cover" src={bgDesktop.src} alt="" fill /> */}
-        </div>
+        <picture className="w-auto h-auto">
+          <source media="(min-width: 60rem)" srcSet={bgDesktop.src} />
+          <img
+            className="w-[100vw] h-[14.5rem] sm:h-80 object-cover z-0"
+            src={bgMobile.src}
+            alt=""
+          />
+        </picture>
       </div>
-      <main className="bg-white w-[37.5rem] rounded-2xl px-10 py-3 shadow-2xl shadow-grayishPurple/25">
-        <div className="flex flex-row justify-start items-center pt-3">
-          <div className="relative w-10 h-10 mr-6">
+      <main className="bg-white w-auto mx-6 sm:w-[37.5rem] rounded-lg sm:rounded-2xl px-6 sm:px-10 py-2.5 sm:py-3.5 shadow-2xl shadow-grayishPurple/25 z-10">
+        <div className="flex flex-row justify-start items-center pt-5">
+          <div className="relative w-[1.55rem] h-[1.55rem] sm:w-[2.6rem] sm:h-[2.6rem] mr-6 sm:mr-[1.4rem]">
             <Image src={starIcon.src} fill alt="" />
           </div>
-          <h1 className="text-darkPurple text-[3.5rem] font-bold">FAQs</h1>
+          <h1 className="text-darkPurple text-[2rem] sm:text-[3.5rem] leading-[1.65rem] sm:leading-[5rem] font-bold">
+            FAQs
+          </h1>
         </div>
         <Accordian data={data} />
       </main>
