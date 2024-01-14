@@ -10,8 +10,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor](...)
-- Live Site URL: [Live version on Vercel](...)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-tailwindcss-and-nextjs-BF4iJFdwC5)
+- Live Site URL: [Live version on Vercel](https://intro-component-with-signup-form-tau-self.vercel.app)
 
 
 ### Built with

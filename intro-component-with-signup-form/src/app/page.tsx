@@ -5,7 +5,7 @@ import SignUpForm from "@/components/sign-up-form";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center bg-primaryRed min-h-screen p-6 md:p-8">
+    <main className="flex justify-center items-center bg-primaryRed min-h-screen p-6 md:p-8">
       <div className="absolute z-0 w-full h-full">
         <picture className="w-full h-full object-cover">
           <source media="(min-width: 40rem)" srcSet={bgDesktop.src} />
@@ -42,6 +42,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
