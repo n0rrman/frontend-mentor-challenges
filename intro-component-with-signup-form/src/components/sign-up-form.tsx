@@ -35,47 +35,38 @@ export default function SignUpForm() {
 
   const handleSubmit = (event: React.SyntheticEvent) => {
     event.preventDefault();
-    setFirstnameError(firstname.length < 1);
-    setLastnameError(lastname.length < 1);
-    setEmailError(!validateEmail(email));
-    setPasswordError(password.length < 1);
+    setFirstnameError(firstname.trim().length < 1);
+    setLastnameError(lastname.trim().length < 1);
+    setEmailError(!validateEmail(email.trim()));
+    setPasswordError(password.trim().length < 1);
   };
 
   return (
     <form
       onSubmit={handleSubmit}
       noValidate
-      className="bg-white p-8 rounded-xl flex flex-col gap-5 w-full"
+      className="bg-white p-5 md:p-10 rounded-xl flex flex-col gap-5 w-full shadow-[0px_8px_0px_0px_rgba(0,0,0,0.15)]"
     >
-      <input
+      <SignUpFormInput
         value={firstname}
-        className={`border-2 p-3 rounded-md focus:border-primaryBlue ${
-          firstnameError
-            ? "border-primaryRed text-primaryRed"
-            : "border-grayishBlue text-neutralBlue"
-        }`}
         placeholder="First Name"
-        onChange={(e) => handleChange(e, setFirstname, setFirstnameError)}
+        type="text"
+        error={firstnameError}
+        changeHandler={(e) => handleChange(e, setFirstname, setFirstnameError)}
       />
-      <input
+      <SignUpFormInput
         value={lastname}
-        className={`border-2 p-3 rounded-md ${
-          lastnameError
-            ? "border-primaryRed text-primaryRed"
-            : "border-grayishBlue text-neutralBlue"
-        }`}
         placeholder="Last Name"
-        onChange={(e) => handleChange(e, setLastname, setLastnameError)}
+        type="text"
+        error={lastnameError}
+        changeHandler={(e) => handleChange(e, setLastname, setLastnameError)}
       />
-      <input
+      <SignUpFormInput
         value={email}
-        className={`border-2 p-3 rounded-md ${
-          emailError
-            ? "border-primaryRed text-primaryRed"
-            : "border-grayishBlue text-neutralBlue"
-        }`}
         placeholder="Email Address"
-        onChange={(e) => handleChange(e, setEmail, setEmailError)}
+        type="email"
+        error={emailError}
+        changeHandler={(e) => handleChange(e, setEmail, setEmailError)}
       />
       <SignUpFormInput
         value={password}
@@ -85,12 +76,14 @@ export default function SignUpForm() {
         changeHandler={(e) => handleChange(e, setPassword, setPasswordError)}
       />
 
-      <button className="bg-primaryGreen w-full py-3.5 uppercase rounded-md text-white">
+      <button className="bg-primaryGreen w-full py-3.5 uppercase rounded-md leading-[1.5rem] tracking-wider text-[0.975rem] text-white border-[#52bc8e] border border-b-4 hover:cursor-pointer hover:bg-primaryGreen/75 transition duration-200 ease-in-out">
         Claim your free trial
       </button>
-      <div className="text-neutralGrayish text-xs text-center">
+      <div className="text-neutralGrayish text-[0.68rem] -mt-2 mb-1 text-center">
         By clicking the button, you are agreeing to our{" "}
-        <span className="text-primaryRed">Terms and Services</span>
+        <span className="text-primaryRed font-bold hover:cursor-pointer hover:text-primaryRed/75 transition duration-200 ease-in-out">
+          Terms and Services
+        </span>
       </div>
     </form>
   );
