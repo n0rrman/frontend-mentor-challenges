@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --color-primaryGreen: 75deg 94% 57%;
+
+    --color-neutralWhite: 0deg 0% 100%;
+    --color-neutralGrey: 0deg 0% 20%;
+    --color-neutralDarkGrey: 0deg 0% 12%;
+    --color-neutralOffBlack: 0deg 0% 8%;
+  }
+}
