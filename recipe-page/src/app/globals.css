@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-nutmeg: 14deg 45% 36%;
+    --color-darkRaspberry: 332deg 51% 32%;
+
+    --color-white: 0deg 0% 100%;
+    --color-roseWhite: 330deg 100% 98%;
+    --color-eggshell: 30deg 54% 90%;
+    --color-lightGrey: 30deg 18% 87%;
+    --color-wengeBrown: 30deg 10% 34%;
+    --color-darkCharcoal: 24deg 5% 18%;
+  }
+}
