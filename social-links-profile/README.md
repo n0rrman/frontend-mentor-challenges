@@ -11,7 +11,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [Solution at Frontend Mentor](...)
-- Live Site URL: [Live version on Vercel](...)
+- Live Site URL: [Live version on Vercel](https://social-links-profile-lyart.vercel.app)
 
 
 ### Built with
