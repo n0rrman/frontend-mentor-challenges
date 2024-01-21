@@ -10,7 +10,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor](...)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-tailwindcss-and-nextjs-UF1CrA0nVh)
 - Live Site URL: [Live version on Vercel](https://social-links-profile-lyart.vercel.app)
 
 
