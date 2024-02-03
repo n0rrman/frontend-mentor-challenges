@@ -8,7 +8,7 @@ export default function Home() {
     <div
       className={`flex justify-center items-center min-h-screen bg-eggshell ${outfit.className}`}
     >
-      <main className="flex flex-col gap-6 max-w-[46rem] bg-white p-10 rounded-xl my-0 md:my-[7.5rem]">
+      <main className="flex flex-col gap-6 max-w-[46rem] bg-white p-10 rounded-2xl my-0 md:my-[7.5rem]">
         <section>
           <div className="relative w-full aspect-[2.1866666667] rounded-xl overflow-hidden">
             <Image src={foodImage} alt="" fill />
