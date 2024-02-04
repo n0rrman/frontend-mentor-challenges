@@ -1,8 +1,13 @@
 import Image from "next/image";
 
+import Link from "next/link";
+
 import profilePic from "/public/avatar-michelle.jpg";
 import productImg from "/public/drawers.jpg";
 // import shareIcon from "/public/icon-share.svg";
+import { ImFacebook2 } from "react-icons/im";
+import { FaTwitter } from "react-icons/fa";
+import { FaPinterest, FaFacebookSquare } from "react-icons/fa";
 
 // import { FaShare } from "react-icons/fa";
 // import { IoIosShareAlt } from "react-icons/io";
@@ -11,9 +16,9 @@ import { PiShareFatFill } from "react-icons/pi";
 export default function Home() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-lightGrayishBlue">
-      <div className="flex flex-col md:flex-row text-veryDarkBlue w-[45.625rem] bg-white rounded-xl shadow-xl ">
+      <div className="flex flex-col sm:flex-row text-veryDarkBlue w-[45.625rem] bg-white rounded-xl shadow-xl ">
         <div className="rounded-l-xl overflow-hidden w-full">
-          <div className="relative h-full w-full">
+          <div className="relative h-64 sm:h-full w-full ">
             <Image
               className="object-left object-cover contrast-105 scale-[1.005]"
               src={productImg}
@@ -43,19 +48,24 @@ export default function Home() {
               <div className=" text-grayishBlue">28 Jun 2020</div>
             </div>
             <div className="group hover:cursor-pointer">
-              <div className="flex text-lg justify-center items-center  rounded-full group-hover:text-lightGrayishBlue  group-hover:bg-desaturatedBlue text-desaturatedBlue bg-lightGrayishBlue h-8 w-8">
-                <PiShareFatFill />
-                {/* <Image
-                  src={shareIcon}
-                  className=""
-                  alt=""
-                  width={15}
-                  height={15}
-                /> */}
-                <div className="group-hover:flex self-end -translate-y-[3.7rem] absolute items-center justify-center group-hover:cursor-pointer hidden bg-veryDarkBlue h-[3.4375rem] rounded-lg w-[15.5rem] text-grayishBlue">
-                  <div className="uppercase tracking-[0.3rem] text-sm">
+              <div className="flex text-lg justify-center items-center rounded-full group-hover:text-lightGrayishBlue group-hover:bg-desaturatedBlue text-desaturatedBlue bg-lightGrayishBlue h-8 w-8 z-40">
+                <PiShareFatFill className="z-50" />
+                <div className="group-hover:flex self-end translate-y-[2.25rem] translate-x-[-10rem] sm:translate-x-0 sm:-translate-y-[3.7rem] absolute items-center justify-center group-hover:cursor-pointer hidden bg-veryDarkBlue h-[3.4375rem] rounded-lg w-full sm:w-[15.5rem] text-grayishBlue z-10 shadow-xl">
+                  <div className="uppercase tracking-[0.3rem] text-xs">
                     Share
                   </div>
+                  <div className="text-white ml-5 flex flex-row gap-4 text-xl z-10">
+                    <Link href="http://facebook.com">
+                      <ImFacebook2 />
+                    </Link>
+                    <Link href="http://twitter.com">
+                      <FaTwitter />
+                    </Link>
+                    <Link href="http://pinterest.com">
+                      <FaPinterest />
+                    </Link>
+                  </div>
+                  <div className="hidden sm:absolute rotate-45 bg-veryDarkBlue w-5 h-5 translate-y-6 z-0"></div>
                 </div>
               </div>
             </div>
