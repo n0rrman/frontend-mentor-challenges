@@ -4,13 +4,9 @@ import Link from "next/link";
 
 import profilePic from "/public/avatar-michelle.jpg";
 import productImg from "/public/drawers.jpg";
-// import shareIcon from "/public/icon-share.svg";
 import { ImFacebook2 } from "react-icons/im";
 import { FaTwitter } from "react-icons/fa";
-import { FaPinterest, FaFacebookSquare } from "react-icons/fa";
-
-// import { FaShare } from "react-icons/fa";
-// import { IoIosShareAlt } from "react-icons/io";
+import { FaPinterest } from "react-icons/fa";
 import { PiShareFatFill } from "react-icons/pi";
 
 export default function Home() {
@@ -27,7 +23,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <main className="flex flex-col gap-3 px-8 md:px-10 py-8  md:max-w-[20rem] lg:max-w-[27.8rem] relative">
+        <main className="flex flex-col gap-3 px-8 md:px-10 pt-8 md:max-w-[27.8rem] relative">
           <h1 className="text-base md:text-lg lg:text-xl font-bold">
             Shift the overall look and feel by adding these wonderful touches to
             furniture in your home
@@ -35,11 +31,11 @@ export default function Home() {
 
           <p className="text-[0.8125rem] text-desaturatedBlue pb-2">
             Ever been in a room and felt like something was missing? Perhaps it
-            felt slightly bare and uninviting. I've got some simple tips to help
-            you make any room feel complete.
+            felt slightly bare and uninviting. I&apos;ve got some simple tips to
+            help you make any room feel complete.
           </p>
 
-          <div className="flex flex-row items-center justify-center h-[2rem] group mt-3 -mb-3 md:m-0">
+          <div className="flex flex-row items-center justify-center h-[2rem] md:mt-1 group mt-3 mb-4 md:mb-9">
             <div className="relative w-10 h-10 rounded-full overflow-hidden">
               <Image src={profilePic} alt="" fill />
             </div>
@@ -53,7 +49,7 @@ export default function Home() {
               </div>
             </div>
             <div
-              className="flex absolute items-center self-center md:self-end justify-start pl-10 md:pl-0 md:justify-center bg-veryDarkBlue h-[4.5rem] md:h-[3.4375rem] rounded-b-xl md:rounded-xl w-full md:w-[15.5rem] text-grayishBlue z-10 shadow-xl
+              className="flex absolute items-center self-center md:self-end justify-start pl-10 md:pl-0 md:justify-center bg-veryDarkBlue h-[4rem] md:h-[3.4375rem] rounded-b-xl md:rounded-xl w-full md:w-[15.5rem] text-grayishBlue z-10 shadow-xl
               translate-x-0 md:translate-x-[6.5rem] lg:translate-x-[10.4rem]
               translate-y-0 md:translate-y-[-3.5rem]
               transition-all
