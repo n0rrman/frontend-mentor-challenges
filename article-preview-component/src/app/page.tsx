@@ -58,13 +58,13 @@ export default function Home() {
             >
               <div className="uppercase tracking-[0.3rem] text-xs">Share</div>
               <div className="text-white ml-5 flex flex-row gap-4 text-xl z-10">
-                <Link href="http://facebook.com">
+                <Link aria-label="Facebook" href="http://facebook.com">
                   <ImFacebook2 />
                 </Link>
-                <Link href="http://twitter.com">
+                <Link aria-label="Twitter" href="http://twitter.com">
                   <FaTwitter />
                 </Link>
-                <Link href="http://pinterest.com">
+                <Link aria-label="Pinterest" href="http://pinterest.com">
                   <FaPinterest />
                 </Link>
               </div>
