@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             <div
               className="flex absolute items-center self-center md:self-end justify-start pl-10 md:pl-0 md:justify-center bg-veryDarkBlue h-[4rem] md:h-[3.4375rem] rounded-b-xl md:rounded-xl w-full md:w-[15.5rem] text-grayishBlue z-10 shadow-xl
-              translate-x-0 md:translate-x-[6.5rem] lg:translate-x-[10.4rem]
+              translate-x-0 md:translate-x-[9rem] lg:translate-x-[10.4rem]
               translate-y-0 md:translate-y-[-3.5rem]
               transition-all
               group-hover:opacity-100 opacity-0
