@@ -10,8 +10,8 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor](...)
-- Live Site URL: [Live version on Vercel](...)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/article-preview-component-tailwind-and-nextjs-RWaOspw2Qy)
+- Live Site URL: [Live version on Vercel](https://article-preview-component-tawny-chi.vercel.app)
 
 
 ### Built with
