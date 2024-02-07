@@ -11,7 +11,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 ### Links
 
 - Solution URL: [Solution at Frontend Mentor](...)
-- Live Site URL: [Live version on Vercel](...)
+- Live Site URL: [Live version on Vercel](https://base-apparel-coming-soon-three-bice.vercel.app)
 
 
 ### Built with
