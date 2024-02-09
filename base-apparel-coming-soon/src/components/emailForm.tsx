@@ -44,7 +44,7 @@ export default function EmailForm() {
         <input
           className={`${
             error ? "border-softRed" : "border-desaturatedRed/75"
-          } w-full z-30 bg-transparent placeholder:text-desaturatedRed/75 py-[0.94rem] px-8 rounded-[2rem] border`}
+          } w-full z-30 bg-transparent text-sm sm:text-base placeholder:text-desaturatedRed/75 py-[0.8rem] sm:py-[0.94rem] px-7 sm:px-8 rounded-[2rem] border`}
           placeholder="Email Address"
           value={input}
           onChange={(e) => handleChange(e.target.value)}
@@ -52,15 +52,15 @@ export default function EmailForm() {
         />
         <button
           className={`${
-            error ? "-ml-[6.3rem]" : "-ml-24"
-          } z-40 relative py-[1.1rem] shadow-xl px-[2.75rem] rounded-[2rem] bg-gradient-to-br from-gradTwoStart to-gradTwoEnd hover:bg-gradTwoStart hover:bg-none hover:shadow-2xl`}
+            error ? "-ml-16 sm:-ml-[6.3rem]" : "-ml-16 sm:-ml-24"
+          } z-40 relative py-[0.82rem] sm:py-[1.1rem] shadow-xl px-[1.65rem] sm:px-[2.75rem] rounded-[2rem] bg-gradient-to-br from-gradTwoStart to-gradTwoEnd hover:bg-gradTwoStart hover:bg-none hover:shadow-2xl`}
         >
           <div className="relative w-3 h-5">
             <Image alt="submit" src={arrowIcon.src} fill />
           </div>
         </button>
         {error && (
-          <div className="-ml-36 z-50 relative w-6 h-6">
+          <div className="-ml-24 sm:-ml-36 z-50 relative w-6 h-6">
             <Image alt="error" fill src={errIcon.src} />
           </div>
         )}
