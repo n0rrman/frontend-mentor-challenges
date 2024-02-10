@@ -11,7 +11,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [Solution at Frontend Mentor](...)
-- Live Site URL: [Live version on Vercel](...)
+- Live Site URL: [Live version on Vercel](https://recipe-page-ashen.vercel.app)
 
 
 ### Built with

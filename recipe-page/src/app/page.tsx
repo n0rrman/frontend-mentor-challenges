@@ -6,29 +6,34 @@ import foodImage from "/public/image-omelette.jpeg";
 export default function Home() {
   return (
     <div
-      className={`flex justify-center items-center min-h-screen bg-eggshell ${outfit.className}`}
+      className={`flex justify-center items-center min-h-screen ${outfit.className}`}
     >
-      <main className="flex flex-col gap-6 max-w-[46rem] bg-white p-10 rounded-2xl my-0 md:my-[7.5rem]">
+      <main className="flex flex-col gap-7 max-w-[46rem] bg-white md:p-10 rounded-none md:rounded-3xl my-0 md:my-[7.5rem]">
         <section>
-          <div className="relative w-full aspect-[2.1866666667] rounded-xl overflow-hidden">
+          <div className="relative w-full aspect-[2.1866666667] md:rounded-xl overflow-hidden">
             <Image src={foodImage} alt="" fill />
           </div>
-          <h1 className={`${young.className} py-8 text-4xl`}>
+          <h1 className={`${young.className} pt-8 pb-3.5 text-[2.5rem]`}>
             Simple Omelette Recipe
           </h1>
 
-          <p>
+          <p className="text-wengeBrown">
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
           </p>
         </section>
-        <section className="px-4 py-2 rounded-lg bg-roseWhite">
-          <h3 className="text-darkRaspberry font-bold">Preparation time</h3>
+        <section className="px-7 py-6 rounded-xl bg-roseWhite space-y-2">
+          <h3 className="text-darkRaspberry font-bold text-xl">
+            Preparation time
+          </h3>
 
-          <ul className="list-disc list-inside">
-            <li>
-              <span className="font-bold">Total</span>: Approximately 10 minutes
+          <ul className="list-disc list-inside flex flex-col gap-2 px-2 py-1">
+            <li className="text-darkRaspberry text-sm">
+              <span className="text-wengeBrown text-base">
+                <span className="ml-[0.8rem] font-bold">Total</span>:
+                Approximately 10 minutes
+              </span>
             </li>
 
             <li>
@@ -41,11 +46,11 @@ export default function Home() {
         </section>
 
         <section>
-          <h2 className={`${young.className} text-nutmeg text-2xl pb-5`}>
+          <h2 className={`${young.className} text-nutmeg text-[1.75rem] pb-5`}>
             Ingredients
           </h2>
 
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside flex flex-col gap-4">
             <li>2-3 large eggs</li>
             <li>Salt, to taste</li>
             <li>Pepper, to taste</li>
@@ -59,10 +64,10 @@ export default function Home() {
         <hr />
 
         <section>
-          <h3 className={`${young.className} text-nutmeg text-2xl pb-5`}>
+          <h3 className={`${young.className} text-nutmeg text-[1.75rem] pb-5`}>
             Instructions
           </h3>
-          <ol className="pl-6 list-decimal list-outside">
+          <ol className="pl-6 list-decimal list-outside flex flex-col gap-3">
             <li>
               <span className="font-bold">Beat the eggs</span>: In a bowl, beat
               the eggs with a pinch of salt and pepper until they are well
@@ -103,7 +108,7 @@ export default function Home() {
         <hr />
 
         <section>
-          <h3 className={`${young.className} text-nutmeg text-2xl pb-5`}>
+          <h3 className={`${young.className} text-nutmeg text-[1.75rem] pb-5`}>
             Nutrition
           </h3>
 
@@ -112,25 +117,25 @@ export default function Home() {
             additional fillings.
           </p>
 
-          <table>
-            <tbody>
-              <tr>
-                <td>Calories</td>
-                <td className="text-nutmeg font-bold">277kcal</td>
+          <table className="w-full">
+            <tbody className="flex flex-col">
+              <tr className=" border-b grid grid-cols-2 w-full px-7 py-3">
+                <td className="">Calories</td>
+                <td className=" text-nutmeg font-bold">277kcal</td>
               </tr>
 
-              <tr>
+              <tr className=" border-b grid grid-cols-2 w-full px-7 py-3">
                 <td>Carbs</td>
                 <td className="text-nutmeg font-bold">0g</td>
               </tr>
 
-              <tr>
+              <tr className=" border-b grid grid-cols-2 w-full px-7 py-3">
                 <td>Protein</td>
                 <td className="text-nutmeg font-bold">20g</td>
               </tr>
 
-              <tr>
-                <td>Fat</td>
+              <tr className=" grid grid-cols-2 w-full px-7 py-3">
+                <td className="">Fat</td>
                 <td className="text-nutmeg font-bold">22g</td>
               </tr>
             </tbody>
