@@ -14,7 +14,7 @@ export default function Home() {
             <Image src={foodImage} alt="" fill />
           </div>
           <h1
-            className={`${young.className} pt-[1.9rem] pb-3.5 text-3xl md:text-[2.5rem] px-8 md:px-0`}
+            className={`${young.className} pt-[2.5rem] pb-4 text-3xl md:text-[2.5rem] px-8 md:px-0`}
           >
             Simple Omelette Recipe
           </h1>
@@ -26,9 +26,9 @@ export default function Home() {
           </p>
         </section>
         <section className="px-7 py-6 mt-2 rounded-xl bg-roseWhite space-y-2 mx-8 md:mx-0">
-          <h3 className="text-darkRaspberry font-bold text-xl">
+          <h2 className="text-darkRaspberry font-bold text-xl">
             Preparation time
-          </h3>
+          </h2>
 
           <ul className="list-disc list-inside flex flex-col gap-2 px-2 py-1">
             <li className="text-darkRaspberry text-sm">
@@ -91,9 +91,9 @@ export default function Home() {
         <hr className="my-2" />
 
         <section className="text-sm pt-1 px-8 md:px-0">
-          <h3 className={`${young.className} text-nutmeg text-[1.75rem] pb-5`}>
+          <h2 className={`${young.className} text-nutmeg text-[1.75rem] pb-5`}>
             Instructions
-          </h3>
+          </h2>
           <ol className="pl-6 list-decimal list-outside flex flex-col gap-2 py-2 font-bold text-base text-nutmeg">
             <li className="pl-4">
               <div className="font-normal text-wengeBrown">
@@ -147,9 +147,9 @@ export default function Home() {
         <hr />
 
         <section className="px-8 md:px-0">
-          <h3 className={`${young.className} text-nutmeg text-[1.75rem] pb-1`}>
+          <h2 className={`${young.className} text-nutmeg text-[1.75rem] pb-1`}>
             Nutrition
-          </h3>
+          </h2>
 
           <p className="py-3">
             The table below shows nutritional values per serving without the
