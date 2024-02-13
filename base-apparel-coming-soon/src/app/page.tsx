@@ -10,7 +10,10 @@ import EmailForm from "@/components/emailForm";
 export default function Home() {
   return (
     <main className="grid grid-cols-1 sm:grid-cols-[0.5763888889fr_0.4236111111fr] min-h-screen">
-      <section id="logo" className="z-30 pt-8 sm:pt-16 ml-8 sm:ml-40">
+      <section
+        id="logo"
+        className="z-30 pt-8 sm:pt-[4.05rem] ml-8 sm:ml-[10.3rem]"
+      >
         <div className="relative w-[6.5rem] sm:w-[9.875rem] aspect-[4.7878787879]">
           <Image alt="" src={logo.src} fill />
         </div>
@@ -37,13 +40,15 @@ export default function Home() {
       </section>
 
       <section id="form" className="flex flex-col text-desaturatedRed">
-        <div className="z-20 mx-8 sm:mx-40 flex flex-col gap-2 text-center sm:text-left">
-          <h1 className="text-[2.5rem] leading-[2.7rem] sm:text-6xl uppercase font-light tracking-[0.7rem] sm:tracking-[1.1rem] pb-3">
+        <div className="z-20 mx-8 sm:mx-[10.3rem] w-[27.9rem] flex flex-col gap-2 text-center sm:text-left">
+          <h1 className="text-[2.5rem] sm:text-[4rem] leading-[2.7rem] sm:leading-[4.4rem] uppercase font-light tracking-[0.7rem] sm:tracking-[1.1rem] pb-3">
             We&apos;re
-            <span className="block text-darkishRed font-bold">coming soon</span>
+            <span className="block text-darkishRed font-bold -my-0.5">
+              coming soon
+            </span>
           </h1>
 
-          <p className="text-sm sm:text-base">
+          <p className="text-sm sm:text-[1rem] leading-7">
             Hello fellow shoppers! We&apos;re currently building our new fashion
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
