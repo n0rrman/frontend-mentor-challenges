@@ -9,6 +9,7 @@ import EmailForm from "@/components/emailForm";
 
 export default function Home() {
   return (
+    // <main className="grid grid-cols-1 sm:grid-cols-2 min-h-screen">
     <main className="grid grid-cols-1 sm:grid-cols-[0.5763888889fr_0.4236111111fr] min-h-screen">
       <section
         id="logo"
@@ -20,7 +21,7 @@ export default function Home() {
       </section>
 
       <section id="hero" className="row-span-2 z-20 h-full w-full">
-        <picture className="h-full w-full">
+        <picture className="relative h-full w-full bg-red-500 z-50">
           <source media="(min-width: 40rem)" srcSet={heroDesktop.src} />
           <img
             className="object-contain object-top sm:object-cover h-full w-full"
@@ -43,7 +44,7 @@ export default function Home() {
         id="form"
         className="flex flex-col items-center sm:items-start justify-normal text-desaturatedRed"
       >
-        <div className="z-20 mx-7 -mt-10 sm:mt-0 sm:mx-[10.3rem] w-[19rem] sm:w-[27.9rem] flex flex-col gap-2 text-center sm:text-left">
+        <div className="z-20 mx-0 -mt-10 sm:mt-0 sm:mx-[10.3rem] w-[19rem] sm:w-[27.9rem] flex flex-col gap-2 text-center sm:text-left">
           <h1 className="text-[2.5rem] sm:text-[4rem] leading-[2.7rem] sm:leading-[4.4rem] uppercase font-light tracking-[0.7rem] sm:tracking-[1.1rem] pb-3">
             We&apos;re
             <span className="block text-darkishRed font-bold -my-0.5">
