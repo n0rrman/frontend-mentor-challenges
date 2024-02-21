@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '450px',
+        'mid': '1350px'
+      },
       colors: {
 
         desaturatedRed: 'hsl(var(--color-desaturatedRed) / <alpha-value>)',
