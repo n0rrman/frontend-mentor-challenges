@@ -10,7 +10,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Solution at Frontend Mentor](...)
+- Solution URL: [Solution at Frontend Mentor](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-tailwind-and-nextjs-42d5JTlXWm)
 - Live Site URL: [Live version on Vercel](https://base-apparel-coming-soon-three-bice.vercel.app)
 
 

@@ -32,10 +32,9 @@ The challenges are solved using [Next.js](https://nextjs.org/), [Tailwind CSS](h
 | [Social links profile](https://www.frontendmentor.io/solutions/social-links-profile-tailwindcss-and-nextjs-UF1CrA0nVh)  | 🔵Newbie | [social-links-profile](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/social-links-profile) | [Vercel](https://social-links-profile-lyart.vercel.app) | ![Screenshot of the solved challenge](social-links-profile/design/screenshot.png) |
 | [Article preview component](https://www.frontendmentor.io/solutions/article-preview-component-tailwind-and-nextjs-RWaOspw2Qy)  | 🔵Newbie | [article-preview-component](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/article-preview-component) | [Vercel](https://article-preview-component-tawny-chi.vercel.app) | ![Screenshot of the solved challenge](article-preview-component/design/screenshot.png) |
 | [Recipe Page](https://www.frontendmentor.io/solutions/recipe-page-tailwind-and-nextjs-sU3nIsZT8A)  | 🔵Newbie | [recipe-page](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/recipe-page) | [Vercel](https://recipe-page-ashen.vercel.app) | ![Screenshot of the solved challenge](recipe-page/design/screenshot.png) |
+| [Base Apparel coming soon page](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-tailwind-and-nextjs-42d5JTlXWm)  | 🔵Newbie | [base-apparel-coming-soon](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/base-apparel-coming-soon) | [Vercel](https://base-apparel-coming-soon-three-bice.vercel.app) | ![Screenshot of the solved challenge](base-apparel-coming-soon/design/screenshot.png) |
 
 
 <!--
-| [Base Apparel coming soon page](...)  | 🔵Newbie | [base-apparel-coming-soon](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/base-apparel-coming-soon) | [Vercel](https://base-apparel-coming-soon-three-bice.vercel.app) | ![Screenshot of the solved challenge](base-apparel-coming-soon/design/screenshot.png) |
-
 | [-](...)  | 🔵Newbie | [...](https://github.com/n0rrman/frontend-mentor-challenges-blue/tree/main/...) | [Vercel](https://....vercel.app) | ![Screenshot of the solved challenge](.../design/screenshot.png) |
 -->
